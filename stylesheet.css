@@ -48,3 +48,70 @@
     color: #f36;
     border-bottom: 1px solid #f36;
 }
+
+
+.shirts-container {
+    position: relative;
+    background: #ffd6d5;
+}
+
+.photos {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+.photo {
+    margin: 5px;
+}
+.product-img {
+    width: 100%;
+}
+
+@media (min-width: 600px) {
+    .photos {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+
+    }
+    .product-img {
+        height: auto;
+        width: 45vw;
+    }
+
+}
+
+@media (min-width: 1312px) {
+   .photos {
+       display: flex;
+       flex-wrap: wrap;
+       height: auto;
+       width: auto;
+   }
+    .product-img {
+        height: auto;
+        width: auto;
+    }
+}
+
+.new-styles-wrapper {
+    position: relative;
+    height:200px;
+    width: 100vw;
+}
+.bottom-bar {
+    width:100vw;
+    height: 1000px;
+    background:  black;
+
+}
+
+.footer-two {
+    width:100vw;
+    height: 300px;
+    background: slategrey;
+}
